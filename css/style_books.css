@@ -1,0 +1,66 @@
+.main-container{
+	width:80%;
+	margin:0 auto;
+	padding-top:13em;
+	height:106em;
+}
+
+.menu-research-container{
+	background-color:#fffafa;
+	width:25%;
+	float:left;
+}
+
+.research-result-container{
+	width:75%;
+	float:right;
+}
+
+.rating-star-container{
+	height:18em;
+	width:100%;
+}
+
+.languages-container{
+	height:7em;
+	width:100%;
+	margin-top:-1.5em;
+}
+
+.genres-container{
+	height:51em;
+	width:100%;
+	margin-top:-1.5em;
+}
+
+input[type=radio] {
+  border: 1px solid black;
+  padding: 0.5em;
+  -webkit-appearance: none;
+
+}
+
+input[type=radio]:checked {
+	background-color:black;
+  background-size: 9px 9px;
+}
+
+input[type=radio]:focus {
+  outline-color: transparent;
+  
+}
+
+.button-menu{
+  background-color:#1884b2;
+  border: none;
+  color: white;
+  padding: 8px 20px;
+  text-decoration: none;
+}
+
+@media (max-width: 767px) {
+	.dropdown-menu.multi-column {
+		min-width: 240px !important;
+		overflow-x: hidden;
+	}
+}

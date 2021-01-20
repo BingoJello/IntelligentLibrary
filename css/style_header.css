@@ -1,0 +1,108 @@
+.title{
+	font-family: 'Pacifico';
+	font-size: 38px;
+	color:white; 
+	cursor:pointer;
+	text-decoration:none;
+}
+
+.title:hover{
+	text-decoration:none;
+}
+
+#title-footer{
+	font-family: 'Pacifico';
+	font-size: 30px;
+	color:white; 
+	cursor:pointer;
+	text-decoration:none;
+	cursor:pointer;
+}
+
+#title-footer:hover{
+	text-decoration:none;
+}
+
+.header-menu{
+	background-color:#023f76;
+	height:12em;
+	width:12em;
+	margin:0 auto;
+}
+
+header {
+	position:fixed;
+	z-index:1000;
+	justify-content:space-between;
+	align-items:center;
+	display:flex;
+	width:100%;
+	background-color:#1884b2;
+	height:6em;
+}
+
+nav{
+	padding-top:1em;
+}
+
+.nav-links{
+	list-style:none;
+	padding-left: 0;
+}
+
+.nav-links a {
+	color:white;
+}
+
+.nav-links li{
+	display:inline-block;
+	padding:0px 20px;
+}
+
+.nav-links li  {
+	transition : all 0.3s ease-in-out;
+}
+
+.catalogue-and-research-block{
+	background-color:#023f76;
+	width:62%;
+	height:10em;
+	box-shadow: 5px 5px 5px grey;
+}
+
+.input-group{
+	width:22em;
+}
+
+div.dropdown-multicol{
+  width: 30em;
+}
+div.dropdown-row>a.dropdown-item{
+  display:inline-block;
+  width: 32%;
+}
+
+.dropdown-menu.columns-3 {
+	min-width: 600px;
+}
+.dropdown-menu li a {
+	padding: 5px 15px;
+	font-weight: 300;
+}
+.multi-column-dropdown {
+	list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+.multi-column-dropdown li a {
+	display: block;
+	clear: both;
+	line-height: 1.428571429;
+	color: #333;
+	white-space: normal;
+}
+.multi-column-dropdown li a:hover {
+	text-decoration: none;
+	color: #262626;
+	background-color: #999;
+}

@@ -1,0 +1,18 @@
+.main-container{
+	position:relative;
+	margin: 0 auto;
+	background-color:white;
+	width:80%;
+	border-radius:20px;
+	box-shadow: 5px 5px 15px grey;
+	overflow:hidden;
+	height:45em;
+	top:12em;
+}
+
+@media (max-width: 767px) {
+	.dropdown-menu.multi-column {
+		min-width: 240px !important;
+		overflow-x: hidden;
+	}
+}
